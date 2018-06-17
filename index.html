@@ -1,7 +1,197 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link href="http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic|Roboto+Slab:400,700" rel="stylesheet" type="text/css">
+</head>
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="header">
+        <div class="anchor">
+            <span class="left" id="name">Jerry Sun</span>
+            <div class="right">
+                j.x.y.sun@gmail.com</br>
+            </div>
+        </div>
+    </div>
+</br>
+<div class="section">
+    <h1>Work Experience</h1>
+    <table>
+        <tr>
+            <th class="left">Software Engineer II</th>
+            <td class="right">March 2017 - current</td>
+        </tr>
+        <tr>
+            <td class="left company">Office Apple Experience - Customer Insights team</td>
+            <td class="right company">Microsoft Corp, Redmond, WA</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Created a web service that handles millions of requests a day to improve release management and build uptake for Office on Mac </li>
+        <li>Made improvements to the in-app feedback dialogs and feedback pipeline on Office for macOS and iOS </li>
+        <li>Partnered with teams across the organization to facilitate the adoption of gradual feature rollouts in client applications </li>
+    </ul>
+    <table>
+        <tr>
+            <th class="left">Software Engineer II</th>
+            <td class="right">August 2013 - March 2017</td>
+        </tr>
+        <tr>
+            <td class="left company">Windows Mobile Connectivity team</td>
+            <td class="right company">Microsoft Corp, Redmond, WA</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Developed and maintained multithreaded services that managed network connections and monitored system network data usage on PCs and phones</li>
+        <li>Applied OOP design principles to improve a monolithic data plan class so that its attributes are more extensible and can be changed without recreating the entire data plan object</li>
+        <li>Redesigned network usage API to allow for composable queries for various usage statistics</li>
+        <li>Collaborated with partner teams to identify and improve slowdowns in networking WinRT APIs </li>
+    </ul>
+    <table>
+        <tr>
+            <th class="left">Software Engineer Intern</th>
+            <td class="right">May 2012 - August 2012</td>
+        </tr>
+        <tr>
+            <td class="left company">Windows Phone Kernel and Storage team</td>
+            <td class="right company">Microsoft Corp, Redmond, WA</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Designed and developed a system service that allowed OEMs and developers to manipulate Windows Phone images without needing administrator privileges</li>
+        <li>Designed and implemented security measures within the tool to prevent malicious use</li>
+        <li>Integrated the system service into operating system image generation process</li>
+    </ul>
+</div>
+<div class="section">
+    <h1>Proficiencies</h1>
+    <ul>
+        <b>Languages:</b> C/C++, C#, Python, Objective-C</br>
+        <b>Skills:</b> iOS/macOS development, ASP.Net, .Net
+    </ul>
+</div>
+
+<div class="section">
+    <h1>Education</h1>
+    <table>
+        <tr>
+            <th class="left">Bachelor of Applied Science, <span class="subtitle">Mechatronics Engineering</span></th>
+            <td class="right">Waterloo, Ontario</td>
+        </tr>
+        <tr>
+            <td class="left company">University of Waterloo</td>
+            <td class="right">September 2008 - April 2013</td>
+        </tr>
+    </table>
+</div>
+
 </body>
+
+<style type="text/css" media="all">
+    body,
+    table {
+        font-family: 'Roboto Slab', serif;
+        font-size: 13px;
+        width: 730px;
+        margin: auto;
+    }
+
+    a,
+    a:visited {
+        color: #1111CC;
+    }
+
+    .header {
+        margin-top: 8px
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    #name {
+        font-family: 'Gentium Basic', serif;
+        font-weight: normal;
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    #program {
+        font-size: 16px;
+    }
+
+    .section {
+        margin-top: 9px;
+        margin-bottom: 5px;
+    }
+
+    .section h1 {
+        font-family: 'Roboto Slab', serif;
+        text-align: left;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    .section ul {
+        line-height: 130%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .section li {
+        list-style-type: disc;
+        margin-bottom: 2px;
+    }
+
+    th,
+    td {
+        padding: 0;
+        line-height: 16px;
+    }
+
+    .section th.left {
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .section th.left .subtitle {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .anchor {
+        position: relative;
+    }
+
+    .anchor div {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+    }
+
+    .company {
+        font-style: italic;
+    }
+</style>
+
+<style type="text/css" media='print'>
+    a,
+    a:visited {
+        color: grey;
+    }
+
+    .break {
+        page-break-before: always;
+    }
+
+    .header {
+        margin-top: 0px;
+    }
+</style>
 </html>
